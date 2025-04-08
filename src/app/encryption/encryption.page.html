@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Encriptador</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="floating">Texto</ion-label>
+    <ion-input [(ngModel)]="inputText"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="encrypt()">Encriptar</ion-button>
+  <ion-button expand="full" (click)="decrypt()">Desencriptar</ion-button>
+</ion-content>
