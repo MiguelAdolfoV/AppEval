@@ -5,11 +5,11 @@
    =============================== */
    :root {
     /* 🎯 Colores principales */
-    --ion-color-primary: #00d26a;  // Verde brillante
-    --ion-color-secondary: #00c2ff; // Azul vibrante
-    --ion-color-tertiary: #ffc300;  // Amarillo suave
+    --ion-color-primary: #d2cf00;  
+    --ion-color-secondary: #ff9900;
+    --ion-color-tertiary: #ff3c00;
     --ion-color-success: #28c76f;
-    --ion-color-warning: #ff9f43;
+    --ion-color-warning: #e043ff;
     --ion-color-danger: #ea5455;
   
     /* 🧊 Colores neutros */
@@ -43,13 +43,13 @@
      =============================== */
   @media (prefers-color-scheme: dark) {
     :root {
-      --ion-color-primary: #00d26a;
-      --ion-color-secondary: #00c2ff;
-      --ion-color-tertiary: #ffc300;
-      --ion-color-success: #3cd278;
-      --ion-color-warning: #ffa726;
-      --ion-color-danger: #ff6b6b;
-  
+      --ion-color-primary: #d2cf00;  
+      --ion-color-secondary: #ff9900;
+      --ion-color-tertiary: #ff3c00;
+      --ion-color-success: #28c76f;
+      --ion-color-warning: #e043ff;
+      --ion-color-danger: #ea5455;
+    
       --ion-color-light: #1e1e1e;
       --ion-color-medium: #2c2c2c;
       --ion-color-dark: #f1f1f1;
